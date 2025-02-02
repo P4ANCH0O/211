@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../Lab-digitales/Codigos-ELO212/GVI09_Sesion4_2024/Actividad2/S4_actividad2_2024.sv" \
+"../../../../../Lab-digitales/Codigos-ELO212/GVI09_Sesion4_2024/Actividad2/S4_actividad2_2024_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
